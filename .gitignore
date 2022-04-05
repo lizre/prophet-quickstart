@@ -12,11 +12,15 @@ __pycache__/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# WIP
+scripts/development
+
 # Environments
 .env
 .venv
 env/
 venv/
+my_env/
 ENV/
 env.bak/
 venv.bak/

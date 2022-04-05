@@ -20,7 +20,7 @@ def get_data(limit: str):
         pd.DataFrame
     """
     start = timeit.default_timer()
-    data_path = os.path.join("data")
+    data_path = os.path.join("../data")
     if not os.path.isdir(data_path):
         os.makedirs(data_path)
     request_string = ("https://data.sfgov.org/resource/wg3w-h783.json?$limit="+limit+"&$offset=0&$order=:id")
